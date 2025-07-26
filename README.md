@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 Squidboard is a tilted, partially backlit, 60% underwater themed keyboard. I decided to make this keyboard as I don't currently have a keyboard (only laptop keyboard) and to learn more stuff following making a macropad. Also, when else would I get the oppurtunity to build my own keyboard? I plan to paint the case a sandy yellow colour and the kycaps will be blue. I made the case a bit chunky to allow room for sea related drawings and stickers that I will add. (I can't do renders on my laptop)
 ![alt text](image-12.png)
 ![alt text](image-13.png)
+=======
+Squidboard is a tilted, 60% underwater themed keyboard eith a rotary encoder and oled display. I decided to make this keyboard as I don't currently have a keyboard (only laptop keyboard) and to learn more stuff following making a macropad. Also, when else would I get the oppurtunity to build my own keyboard? I plan to paint the case a sandy yellow colour and the kycaps will be blue. I made the case a bit chunky to allow room for sea related drawings and stickers that I will add. (I can't do renders on my laptop)
+![alt text](Images/image-20.png)
+![alt text](Images/image-19.png)
+>>>>>>> 0fe7d8f273441219aaff8503b7cc4f216ba09311
 ![alt text](Images/image-15.png)
 ![alt text](Images/image-14.png)
 ![alt text](Images/image-17.png)
