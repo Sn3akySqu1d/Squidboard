@@ -1,4 +1,4 @@
-Total hours spent: ~30 hours
+Total hours spent: ~34.5 hours
 
 # Day 1 (8/7) ~8 hours  
 After spending some time researching different keyboard layouts and keycaps I decided on a 60% ANSI layout based a bit on my laptop keyboardo mainly for cost and simplicity reasons as this is my first time designing a keyboard.
@@ -49,3 +49,25 @@ Other things i did today included formatting the repo for proper submission, che
 ![alt text](Images/image-18.png)
 I will glue these halves together. Also there is a small overhang so I will print with supports.
 ![alt text](Images/image-19.png)
+# 26/7 4.5 hours
+I added some decorations to the side fo the case by sketching, extruding inwards, filleting the edges and then sketching and extruding this alternating triangular pattern  
+![alt text](image.png)
+![alt text](image-1.png)
+I also padded out the overhang on the back of the case and added this angular design to be consistent with the triangles and polygon design.
+![alt text](image-2.png)
+I filleted the corners of the back section to make a more seamless transition between the two layers and did the same with the other side
+![alt text](image-3.png)
+![alt text](image-4.png)
+I elavated the section that will contian the rotary encoder and oled screen to add some texture to the top plate
+![alt text](image-5.png)
+I also added some hexagon indents to the top plate to match the ones on the bottom case  
+![alt text](image-6.png)
+I also indented this section with the name of the keyboard
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+After wrestling with fusion to rearange all of the components with it crashing multiple times, i finally split the case and exported all of the components for 3d printing.
+![alt text](image-12.png)
+![alt text](image-13.png)
