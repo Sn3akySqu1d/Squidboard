@@ -1,4 +1,5 @@
-Total hours spent: ~34.5 hours
+Total hours spent designing: ~34.5 hours
+Total hours spent building: ~8 hours
 
 # Day 1 (8/7) ~8 hours  
 After spending some time researching different keyboard layouts and keycaps I decided on a 60% ANSI layout based a bit on my laptop keyboardo mainly for cost and simplicity reasons as this is my first time designing a keyboard.
@@ -51,23 +52,36 @@ I will glue these halves together. Also there is a small overhang so I will prin
 ![alt text](Images/image-19.png)
 # 26/7 4.5 hours
 I added some decorations to the side fo the case by sketching, extruding inwards, filleting the edges and then sketching and extruding this alternating triangular pattern  
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](JournalImages/image.png)
+![alt text](JournalImages/image-1.png)
 I also padded out the overhang on the back of the case and added this angular design to be consistent with the triangles and polygon design.
-![alt text](image-2.png)
+![alt text](JournalImages/image-2.png)
 I filleted the corners of the back section to make a more seamless transition between the two layers and did the same with the other side
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](JournalImages/image-3.png)
+![alt text](JournalImages/image-4.png)
 I elavated the section that will contian the rotary encoder and oled screen to add some texture to the top plate
-![alt text](image-5.png)
+![alt text](JournalImages/image-5.png)
 I also added some hexagon indents to the top plate to match the ones on the bottom case  
-![alt text](image-6.png)
+![alt text](JournalImages/image-6.png)
 I also indented this section with the name of the keyboard
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](JournalImages/image-7.png)
+![alt text](JournalImages/image-8.png)
+![alt text](JournalImages/image-9.png)
+![alt text](JournalImages/image-10.png)
+![alt text](JournalImages/image-11.png)
 After wrestling with fusion to rearange all of the components with it crashing multiple times, i finally split the case and exported all of the components for 3d printing.
-![alt text](image-12.png)
-![alt text](image-13.png)
+![alt text](JournalImages/image-12.png)
+![alt text](JournalImages/image-13.png)
+# Build----------------------------------------------------
+01/08/2025  ~8 hours  
+Once the PCB arrived I soldered the switches, diodes, oled, encoder and pico to it. It was kind of hard to get the switches aligned properly as the ones i had boughtdidnt have the extra 2 prongs that slot into the pcb so there was a lot of resoldering. I also intermitelly tested the GPIO readings to check that the switches I had already soldered were working before moving on. Initially, it appeared that they weren't working but manually shorting the pads with a jumper wire showed that there wasn't a problem with the pcb so I thought that there was a mechanical problem with the switches but after some debugging it turned out the problem was that I wasn't using the matrix scanner properly, which i fixed in the firmware. ![alt text](JournalImages/image-16.png)  
+
+I also decided to use kmk instead for the firmware as I was more familiar with it from hackpad. Next I printed the bottom case and test fitted the pcb and it did fit well. The cable also fit through the back hole.
+![alt text](JournalImages/image-14.png)
+Next I went through a couple iterations of the front plate, having to remodel the cutouts for the switches, oled and encoder a few times. This was quite difficult as I don't own a pair of calipers so there were some parallax errors when measuring with the ruler, leading to the plate not being compatible with the rest of the keyboard. Eventually though I managed to get the correct measurements after using a combination of physcical and digital measurements.
+![alt text](JournalImages/image-15.png)
+![alt text](JournalImages/image-17.png)
+I then attached the keycaps to the keyboard and screwed in the top plate to finish the physical build:  
+![alt text](JournalImages/image-18.png)
+Next came a few hours of debugging and rewriting code for the oled display. I integrated my old code with circuit python and kmk and it worked suprisingly well. due to how kmk handles keypresses I wasn't able to get the original key press counter or typing speed working but I replaced it with a working pomodoro timer which I think is more practically useful anyway. When i was implementing the screen refresh logic I added a custom animation aswell and a session timer accessible through a main menu thats navigatable with the rotary encoder.
+![alt text](JournalImages/image-19.png)
