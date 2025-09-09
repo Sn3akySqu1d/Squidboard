@@ -1,4 +1,4 @@
-Squidboard is a tilted, 60% keyboard with a rotary encoder and oled display. I decided to make this keyboard as I don't currently have a keyboard (only laptop keyboard) and to learn more stuff following making a macropad. Also, when else would I get the oppurtunity to build my own keyboard?
+Squidboard is a tilted, 60% keyboard with a rotary encoder and oled display.
 ![alt text](JournalImages/image-18.png)
 ![alt text](JournalImages/image-14.png)
 
