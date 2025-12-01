@@ -1,4 +1,6 @@
 Squidboard is a tilted, 60% keyboard with a rotary encoder and oled display.
+
+Funded by Hack Club's Highway program
 ![alt text](JournalImages/image-18.png)
 ![alt text](JournalImages/image-14.png)
 
